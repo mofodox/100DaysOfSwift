@@ -17,3 +17,8 @@ beatles[1]
 // If you access like below code, this will crash:
 // Uncomment to see the example:
 // beatles[9]
+
+// Type annotations in arrays
+var arr: [Bool] = [true, false]
+
+arr[1]
