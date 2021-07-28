@@ -1,4 +1,4 @@
-# 100DaysSwift
+# 100 Days of Swift
 
 This repository is to record my journey learning Swift programming with [Hacking with Swift](https://www.hackingwithswift.com/100).
 
