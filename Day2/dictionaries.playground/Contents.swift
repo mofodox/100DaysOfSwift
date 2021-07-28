@@ -17,3 +17,18 @@ let heights2: [String: Double] = [
 ]
 
 heights2["Ed Sheeran"]
+
+// Dictionary default values
+// If you try to read a value from a dictionary using a key that doesn't exist, Swift will send you back nil – nothing. If this what you want it's okay. But there's an alternative, we can provide the dictionary with a default value to use if we request a missing key
+let favouriteIceCream = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanilla"
+]
+
+// This will return "Chocolate"
+favouriteIceCream["Paul"]
+// This will return nil as the key Charlotte doesn't exist
+favouriteIceCream["Charlotte"]
+// but if we were to fix this by giving a default value, instead of Swift return us back with nil, we will get back "Unknown"
+favouriteIceCream["Cherry", default: "Unknown"]
+
