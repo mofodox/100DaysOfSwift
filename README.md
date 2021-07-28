@@ -10,15 +10,17 @@ On the other hand, the README will be a place to show the summary of each day le
 
 - Day 1 (Variables, simple data types and string interpolation)
     1. You make variables using `var` and constants using `let`. It's preferable to use constants as often as possible.
-        - [constants](https://github.com/mofodox/100DaysOfSwift/tree/main/constants.playground)
-        - [variables](https://github.com/mofodox/100DaysOfSwift/tree/main/variables.playground)
     2. Strings start and end with double quotes, but if you want them to run across multiple lines you should use three sets of double quotes.
-        - [strings, multiline strings](https://github.com/mofodox/100DaysOfSwift/tree/main/strings-integers.playground)
     3. Integers hold whole numbers, doubles hold fractional numbers and booleans hold true or false.
-        - [integers](https://github.com/mofodox/100DaysOfSwift/tree/main/strings-integers.playground)
-        - [doubles and booleans](https://github.com/mofodox/100DaysOfSwift/tree/main/doubles-booleans.playground)
     4. String interpolation allows you to create strings from other variables and constants, placing their values inside your string.
-        - [string interpolation](https://github.com/mofodox/100DaysOfSwift/tree/main/strings-integers.playground)
     5. Swift uses type inference to assign each variable or constant a type, but you can provide explicit types if you want.
-        - [type annotation](https://github.com/mofodox/100DaysOfSwift/tree/main/typeannotations.playground)
+
+- Day 2 (Complex Types)
+    1. Arrays, sets, tuples, and dictionaries let you store a group of items under a single value. They each do this in different ways, so which you use depends on the behavior you want.
+    2. Arrays store items in the order you add them, and you access them using numerical positions.
+    3. Sets store items without any order, so you can’t access them using numerical positions.
+    4. Tuples are fixed in size, and you can attach names to each of their items. You can read items using numerical positions or using your names.
+    5. Dictionaries store items according to a key, and you can read items using those keys.
+    6. Enums are a way of grouping related values so you can use them without spelling mistakes.
+    7. You can attach raw values to enums so they can be created from integers or strings, or you can add associated values to store additional information about each case.
 
